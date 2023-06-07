@@ -1,0 +1,729 @@
+@media (min-width:768px)and (max-width:1030px){
+	.col-md-1{
+		width:8.33% !important;
+		padding:0 10px;
+	}
+	.col-md-2{
+		width:16.66% !important;
+		padding:0 10px;
+	}
+	.col-md-3{
+		width:25% !important;
+		padding:0 10px;
+	}
+	.col-md-4{
+		width:33.33% !important;
+		padding:0 10px;
+	}
+	.col-md-5{
+		width:41.66% !important;
+		padding:0 10px;
+	}
+	.col-md-6{
+		width:50% !important;
+		padding:0 10px;
+	}
+	.col-md-7{
+		width:58.33% !important;
+		padding:0 10px;
+	}
+	.col-md-8{
+		width:66.66% !important;
+		padding:0 10px;
+	}
+	.col-md-9{
+		width:75% !important;
+		padding:0 10px;
+	}
+	.col-md-10{
+		width:83.33% !important;
+		padding:0 10px;
+	}
+	.col-md-11{
+		width:91.66% !important;
+		padding:0 10px;
+	}
+	.col-md-12{
+		width:100% !important;
+		padding:0 10px;
+	}
+	/**/
+	.res-display{
+		display:block;
+	}
+	.res-display-1{
+		display:none;
+	}
+	.top-portfolio-0{
+		padding:10px 0;
+		background-color:black;
+	}
+	.top-port-1 a{
+		padding:10px 0 0 20px!important;
+		text-decoration:none;
+		font-size:16px;
+		font-weight:900;
+		font-family: 'Kanit', sans-serif;
+		color:gray;
+	}
+	.top-port-2 .nav-link-0 li{
+		padding:10px 0;
+		list-style-type:none;
+	}
+	.top-port-2 .nav-link-0 li a{
+		font-size:18px;
+		font-weight:900;
+		color:gray;
+	}
+	/*division-1 started*/
+	/*target-started*/
+	.div1-display{
+		display:none;
+		animation-name: example-1;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+	}
+	@keyframes example-1{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div1-display:target{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		position:absolute;
+		top:60px;
+		right:0;
+	}
+	/*target-started*/
+	/**/
+	/*division-2 started*/
+	/*target started*/
+	.div2-display{
+		display:none;
+		animation-name: example-2;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+	}
+	@keyframes example-2{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div2-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		bottom:0;
+		right:0;	
+		bottom:-50px;
+	}
+	/*target ended*/
+	.res-div2-align{
+		align-content:center;
+		text-align:center;
+	}
+	/**/
+	.div3-display{
+	display:none;
+	animation-name: example-1;
+	animation-duration: 0.5s;
+	transition:all .8s ease;
+	}
+	@keyframes example-1{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div3-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		right:0; 
+		bottom:-200px;
+	}
+	/*target ended*/
+	.div3-align{
+		background-color:#f44336de;
+		background-size:cover;
+		height: fit-content;
+	}
+	.res-div3-padding{
+		padding:0 0 0 140px;
+	}
+	/*division4-started*/
+	.read{
+	  display: none;
+	  position: fixed;
+	  right: 0;
+	  top: 60px;
+	  height:100vh;
+	  background-color:#f44336de;
+	  background-size:cover;
+	}
+	.read:target{
+		position:absolute;
+		display:table;
+	}
+	.modal-dialog .modal-content {
+		margin:auto;
+		position: relative;
+		width: 100%;
+		animation-name: example-3;
+		animation-duration: 0.5s;
+	}
+	@keyframes example-3{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.modal-dialog {
+	   display: table-cell;
+	   vertical-align: middle;
+	   padding:0 0 0 130px;
+	}
+	/*division4-ended*/
+	/*division5-started*/
+	/*target started*/
+	.div5-display{
+		display:none;
+		/* height:135h; */
+		animation-name: example-5;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+		background-size:cover;
+	}
+	@keyframes example-5{
+	from{
+		transform:translateY(-50px);
+		opacity: 0;
+		}
+	to{
+		transform:translateY(0px);
+		opacity:1;
+		}
+	}
+	.div5-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		right:0;
+		bottom:-50px;
+	}
+	/*target ended*/
+
+	.event{
+	  display: none;
+	  position: fixed;
+	  right: 0;
+	  top: 60px;
+	  background-color:#f44336de;
+	  background-size:cover;
+	}
+	.event:target{
+		position:absolute;
+		display:table;
+	}
+	.modal-1-dialog .modal-1-content {
+		margin:auto;
+		position: relative;
+		width: 100%;
+		animation-name: example-7;
+		animation-duration: 0.5s;
+	}
+	@keyframes example-7{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+
+	/*division-6 started*/
+	/*target started*/
+	.div6-display{
+		display:none;
+		animation-name: example-8;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+	}
+	@keyframes example-8{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div6-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		bottom:0;
+		right:0;	
+	}
+	/*target ended*/
+	.div6-align{
+		align-items:center;
+		justify-content:space-between;
+		background-color:#f44336de;
+	}
+	.res-div6-align{
+			align-content:center;
+			justify-content:center;
+	}
+	.res-div6-padding{
+			padding:0 50px 40px;
+		}
+}
+@media (max-width:768px){
+	.col-sm-1{
+		width:8.33% !important;
+		padding:0 10px;
+	}
+	.col-sm-2{
+		width:16.66% !important;
+		padding:0 10px;
+	}
+	.col-sm-3{
+		width:25% !important;
+		padding:0 10px;
+	}
+	.col-sm-4{
+		width:33.33% !important;
+		padding:0 10px;
+	}
+	.col-sm-5{
+		width:41.66% !important;
+		padding:0 10px;
+	}
+	.col-sm-6{
+		width:50% !important;
+		padding:0 10px;
+	}
+	.col-sm-7{
+		width:58.33% !important;
+		padding:0 10px;
+	}
+	.col-sm-8{
+		width:66.66% !important;
+		padding:0 10px;
+	}
+	.col-sm-9{
+		width:75% !important;
+		padding:0 10px;
+	}
+	.col-sm-10{
+		width:83.33% !important;
+		padding:0 10px;
+	}
+	.col-sm-11{
+		width:91.66% !important;
+		padding:0 10px;
+	}
+	.col-sm-12{
+		width:100% !important;
+		padding:0 10px;
+	}
+	/**/
+	.res-display-sm{
+		display:block;
+	}
+	.res-display-div1{
+		display:none;
+	}
+	.nav-link-0{
+	justify-content:space-evenly;
+	}
+	.top-portfolio-0{
+		padding:10px 0;
+		background-color:black;
+	}
+	.top-port-1 a{
+		padding:10px 0 0 20px!important;
+		text-decoration:none;
+		font-size:16px;
+		font-weight:900;
+		font-family: 'Kanit', sans-serif;
+		color:gray;
+	}
+	.top-port-2 .nav-link-0 li{
+		padding:10px 0;
+		list-style-type:none;
+	}
+	.top-port-2 .nav-link-0 li a{
+		font-size:18px;
+		font-weight:900;
+		color:gray;
+	}
+	/*division-1 started*/
+	/*target-started*/
+	.div1-display{
+		display:none;
+		animation-name: example-1;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+	}
+	@keyframes example-1{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div1-display:target{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		position:absolute;
+		top:60px;
+		right:0;
+		bottom:0;
+	}
+	/*target-started*/
+	/**/
+	/*target-started*/
+	.div1-align{
+		position:absolute;
+		top:0;
+		bottom:0;
+		right:0;
+	}
+	.div1-animate h1{
+		font-family: 'Kanit', sans-serif;
+		animation:animate-0 8s ease-in-out 1s infinite;
+		background-image:url('../image/animate.jpg');
+		font-size:50px;
+		font-weight:900;
+		-webkit-background-clip:text;
+		color:transparent;
+	}
+	@keyframes animate-0{
+		0%{
+		  background-position: left top;
+		}
+		25%{
+		  background-position: right bottom;
+		 }
+		50%{
+		  background-position: left bottom;
+		}
+		75%{
+		  background-position: right top;
+		}   	
+		100%{
+		  background-position: left top;
+		}
+	}
+	/*division-1 ended*/
+	/*division-2 started*/
+	/*target started*/
+	.div2-display{
+		display:none;
+		animation-name: example-2;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+	}
+	@keyframes example-2{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div2-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		right:0;	
+		bottom:-50px;
+	}
+	.div2-cnt p{
+		font-family: 'Rajdhani', sans-serif;
+		font-size:15px;
+		font-weight:700;
+		padding:30px 0;
+		color:gray;
+	}
+	.div2-cnt p i{
+		padding-right:20px;
+		font-size:35px;
+		color:black;
+	}
+	.div2-cnt h1{
+		letter-spacing:3px;
+		font-family: 'Kanit', sans-serif;
+		font-size:20px;
+		color:gray;
+	}
+	/*target ended*/
+	.res-div2-align{
+		align-content:center;
+		text-align:center;
+	}
+	/**/
+	/**/
+	.div3-display{
+	display:none;
+	animation-name: example-1;
+	animation-duration: 0.5s;
+	transition:all .8s ease;
+	}
+	@keyframes example-1{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div3-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		right:0;
+		bottom:-400px;
+	}
+	.div3-align .div3-img{
+		padding:20px 0 0 0px;
+		text-align:center;
+	}
+	.div3-align .div3-cnt h1{
+		padding:0 0 30px 0px ;
+		font-family: 'Kanit', sans-serif;
+		font-weight:900;
+		text-align:center;
+	}
+	.div3-align .div3-cnt p{
+		padding:0 0 10px 0px ;
+		font-family: 'Rajdhani', sans-serif;
+		font-weight:900;
+		text-align:center;
+	}
+	.div3-btn{
+		padding:0 0 0 20px;
+		display:inline-block;
+	}
+	.div3-align .div3-btn a{
+		text-decoration:none;
+		color:white;
+		font-family: 'Rajdhani', sans-serif;
+		font-weight:900;
+		border-radius:14px;
+		background-color:red;
+		padding:6px 60px;
+		z-index:0;
+		position:relative;	
+		display:inline-block;
+		overflow:hidden;
+		transition:all .5s ease;
+	}
+	.div3-align .div3-btn a::before{
+		content:"";
+		position:absolute;
+		top:0;
+		left:0;
+		height:82px;
+		width:100%;
+		border-radius:14px;
+		border:1px solid #C5C9CD;
+		background-color:#C5C9CD;
+		z-index:-2;
+		transition:all .5s ease;
+		letter-spacing:4px;
+	}
+	/*division4-started*/
+	.read{
+	  display: none;
+	  position: fixed;
+	  right: 0;
+	  top: 60px;
+	  
+	  background-size:cover;
+	}
+	.read:target{
+		position:absolute;
+		display:table;
+	}
+	.modal-dialog .modal-content {
+		margin:auto;
+		position: relative;
+		width: 100%;
+		animation-name: example-3;
+		animation-duration: 0.5s;
+	}
+	@keyframes example-3{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.modal-dialog {
+	   display: table-cell;
+	   vertical-align: middle;
+	   padding:0 0 0 0px;
+	}
+	/*division4-ended*/
+	/*division5-started*/
+	/*target started*/
+	.div5-display{
+		display:none;
+		height:135h;
+		animation-name: example-5;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+		background-color:#f44336de;
+		background-size:cover;
+	}
+	@keyframes example-5{
+	from{
+		transform:translateY(-50px);
+		opacity: 0;
+		}
+	to{
+		transform:translateY(0px);
+		opacity:1;
+		}
+	}
+	.div5-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		right:0;
+	}
+	/*target ended*/
+	.sm-div5-padding{
+		padding:10px 10px;
+	}
+	.event{
+	  display: none;
+	  position: fixed;
+	  right: 0;
+	  top: 60px;
+	  height:100vh;
+	  background-color:#f44336de;
+	  background-size:cover;
+	}
+	.event:target{
+		position:absolute;
+		display:table;
+	}
+	.modal-1-dialog .modal-1-content {
+		margin:auto;
+		position: relative;
+		width: 100%;
+		animation-name: example-7;
+		animation-duration: 0.5s;
+	}
+	@keyframes example-7{
+		from{
+			top:-100px;
+			opacity: 0;
+			}
+		to{
+			top:0px;
+			opacity:1;
+			}
+	}
+	.modal-1-dialog {
+	   display: table-cell;
+	   vertical-align: middle;
+	}
+	.event-container{
+		align-items:center;
+	}
+	.event-container span{
+		font-family: 'Kanit', sans-serif;
+		font-weight:900;
+		font-size:25px;
+		align-items:center;
+	}
+	.event-header-align{
+		display:flex;
+		justify-content:end;
+	}
+	.event-cnt-padding{
+		padding: 40px 15px;
+	}
+	.event-cnt-padding{
+		padding:20px 0;
+	}
+	.event-cnt h1{
+		border:1px solid gray;
+		border-radius:15px;
+		padding:10px 10px;
+		font-family: 'Rajdhani', sans-serif;
+		font-size:20px;
+	}
+	.closebtn-1{
+		text-decoration: none;
+		font-size: 35px;
+		font-weight: bold;
+		color: black;
+	}
+	/*division-6 started*/
+	/*target started*/
+	.div6-display{
+		display:none;
+		animation-name: example-8;
+		animation-duration: 0.5s;
+		transition:all .8s ease;
+	}
+	@keyframes example-8{
+		from{
+			transform:translateY(-50px);
+			opacity: 0;
+			}
+		to{
+			transform:translateY(0px);
+			opacity:1;
+			}
+	}
+	.div6-display:target{
+		display:flex;
+		position:absolute;
+		top:60px;
+		bottom:0;
+		right:0;	
+	}
+	/*target ended*/
+	
+}
